@@ -1,0 +1,87 @@
+/* General App styling */
+.App {
+  text-align: center;
+  color: black; /* Set default text color to black */
+}
+
+/* Header styling */
+.app-header {
+  background-color: #1868b8; /* Bootstrap primary color */
+  color: black; /* Set header text color to black */
+  padding: 10px;
+  /* border-bottom: 1px solid #e0e0e0; */
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.app-header h1 {
+  font-size: 3.5rem;
+  margin: 0;
+  color: black; /* Ensure header title is black */
+}
+
+/* Navigation link styling */
+.navbar-nav .nav-link {
+  color: black; /* Set link color to black */
+  padding: 0 15px; /* Add padding to ensure links are spaced out properly */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: black; /* Ensure active link color is black */
+}
+
+.navbar-nav .nav-link:hover {
+  color: black; /* Ensure hover link color is black */
+}
+
+/* Additional styling for nested routes */
+.navbar-nav ul.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav ul.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: black; /* Ensure active nested link color is black */
+ 
+}
+
+/* Form control styling */
+.form-control {
+  max-width: 300px; /* Adjust the width as needed */
+  width: 100%; /* Ensures the input fields take up full width within the max-width constraint */
+  margin: 0 auto; /* Centers the input fields horizontally */
+  color: black; /* Set input text color to black */
+}
+
+/* Button spacing */
+.btn-spacing {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+/* Animation styling (if needed) */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
